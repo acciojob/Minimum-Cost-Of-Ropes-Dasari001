@@ -1,4 +1,5 @@
 function calculateMinCost(event) {
+	event.preventDefault();
 	var inputEle = document.querySelector('input').value;
 	// alert(inputEle)
 	var arr = inputEle.split(',');
